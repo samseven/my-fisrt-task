@@ -1,0 +1,156 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+/*general*/
+h1 , h2 , h3 , h4 , h5 , h6 {
+    
+font-family: montserrat,sans-serif;
+}
+button
+{
+    font-family: inherit;
+}
+a
+{
+    text-decoration: none;
+
+}
+.hover-opacity:hover
+{
+    opacity: .8;
+}
+.hover-opacity
+{
+    transition:opacity .5s;
+}
+.section-header
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section-header .section-title
+{
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.section-header .line
+{
+    width: 60px;
+    height: 5px;
+    background-color: #6195ff;
+    display: block;
+    margin:0  auto 70px auto;
+}
+.padding-y
+{
+    padding: 50px 0;
+}
+
+/*..................................*/
+
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+
+.clear
+{
+    clear: both;
+}
+.touch-content
+{
+    overflow: hidden;
+    background: #fff;
+
+}
+.touch-item
+{
+    text-align: center;
+    width: 30%;
+    float: left;
+    margin:15px 0;  
+}
+.touch-item.mg
+{
+    margin:0 15px;
+}
+.touch-item .icon
+{
+    color: #6195ff;
+    margin-bottom: 10px;
+}
+.touch-desc 
+{
+        text-transform: capitalize;
+        margin-bottom: 10px;
+}
+.touch-text
+{
+    color: #999;
+}
+.touch-form
+{
+   
+
+}
+.form-item
+{
+    overflow: hidden;
+}
+.form-item .item{
+    width: 45%;
+    float: left;
+    height: 30px;
+    padding: 0 5px;
+}
+input
+{  
+border: 0;
+background:#e0e0e0 ;
+}
+.form-container
+{
+    width: 70%;
+    margin: auto;
+}
+.form-item .item.mg
+{
+    margin-left:2%;
+}
+.subject
+{
+    display: block;
+    width: 92%;
+    margin: 10px 0 10px 0;
+    height: 30px;
+    padding: 0 5px;
+}
+textarea
+{
+    width: 92%;
+    background:#e0e0e0;
+    border: none;
+    padding: 5px;
+}
+.touch-bt
+{
+    border: 0;
+    width: 200px;
+    height: 50px;
+    display: block;
+    border-radius: 5px;
+    margin: 10px auto;
+    color: #fff;
+    background-color: #7ba7ff;;
+}
